@@ -8,13 +8,19 @@ Firmware for: [Urchin Keyboard](https://github.com/duckyb/urchin)
 **Do you want to download my keymap?**  
 
 > [!IMPORTANT]
-> My firmware only matches the following diagram if the operating system is set to "Italian" keyboard input.
+> Configure the operating system keyboard input as **United States-International**. Portuguese accents use its dead-key sequences.
 
 [Download the firmware zip from the latest action run.](https://github.com/duckyb/zmk-urchin/actions/workflows/build.yml?query=is%3Asuccess+branch%3Amaster) Check [the ZMK docs](https://zmk.dev/docs/user-setup#installing-the-firmware) for instructions on how to flash it.
 
-## Keymap Cheat Sheet
+## Current Keymap
 
-This layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seniply/)
+The active layout is a 34-key adaptation of the Totem keymap: Colemak-DH, bilateral home-row modifiers, Lower and Raise thumb layers, and a conditional Device layer. See [`config/urchin.keymap`](./config/urchin.keymap) for the complete bindings.
+
+## Legacy Keymap Cheat Sheet
+
+> The diagram below describes the original upstream keymap and is retained for reference; it does not match the current configuration.
+
+This layout was inspired by [Seniply by Stevep99](https://stevep99.github.io/seniply/)
 
 [See it in action on YouTube!](https://youtu.be/IZ83uU0ltaE)
 <div align="center">
